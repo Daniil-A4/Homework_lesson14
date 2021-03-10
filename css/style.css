@@ -527,18 +527,21 @@ body {
   -ms-flex-preferred-size: 33.333%;
       flex-basis: 33.333%;
   padding: 0 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-._no-webp .Our-Space-Section__column:nth-child(2){
-  background: #10375C url("../img/Group3.png") 244px 16px no-repeat; }
+._no-webp .Our-Space-Section__background{
+  background: #10375C url("../img/Group3.png") 214px 16px no-repeat; }
 
 .Our-Space-Section__background {
-  /* background: #10375C; */
-  background: rgba(16, 55, 92, 0.3);
+  /* background: rgba(16, 55, 92, 0.3); */
 }
 
 .Our-Space-Section__image {
   position: relative;
+  max-width: 350px;
 }
 
 .Our-Space-Section__button {
@@ -560,7 +563,7 @@ body {
   height: 72px;
   background: #FF5722;
   margin-top: 117px;
-  margin-left: -15px;
+  /* margin-left: -15px; */
   line-height: 22px;
   text-align: center;
 }
@@ -951,4 +954,4 @@ body {
 
 /* ====== */
 
-._webp .Our-Space-Section__column:nth-child(2){ background: #10375C url(../img/Group3.webp) 244px 16px no-repeat; }
+._webp .Our-Space-Section__background{ background: #10375C url(../img/Group3.webp) 214px 16px no-repeat; }
