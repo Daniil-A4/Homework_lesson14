@@ -536,10 +536,8 @@ body {
   background-color: #10375C;
 }
 
-.Our-Space-Section__background {
-  /* background: rgba(16, 55, 92, 0.3); */
-  /* background: url("../img/Group3.png") 214px 16px no-repeat;  */
-}
+._no-webp .Our-Space-Section__background{
+  background: url("../img/Group3.png") 214px 16px no-repeat; }
 
 .Our-Space-Section__image {
   position: relative;
@@ -565,7 +563,7 @@ body {
   height: 72px;
   background: #FF5722;
   margin-top: 117px;
-  /* margin-left: -15px; */
+  margin-left: -15px;
   line-height: 22px;
   text-align: center;
 }
@@ -955,3 +953,5 @@ body {
 }
 
 /* ====== */
+
+._webp .Our-Space-Section__background{ background: url(../img/Group3.webp) 214px 16px no-repeat; }
