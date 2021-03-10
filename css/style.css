@@ -533,6 +533,7 @@ body {
   background: #10375C url("../img/Group3.png") 244px 16px no-repeat; }
 
 .Our-Space-Section__background {
+  /* background: #10375C; */
   background: rgba(16, 55, 92, 0.3);
 }
 
