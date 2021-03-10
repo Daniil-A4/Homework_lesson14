@@ -532,16 +532,18 @@ body {
           justify-content: space-between;
 }
 
-._no-webp .Our-Space-Section__background{
-  background: #10375C url("../img/Group3.png") 214px 16px no-repeat; }
+.Our-Space-Section__column:nth-child(2) {
+  background-color: #10375C;
+}
 
 .Our-Space-Section__background {
   /* background: rgba(16, 55, 92, 0.3); */
+  /* background: url("../img/Group3.png") 214px 16px no-repeat;  */
 }
 
 .Our-Space-Section__image {
   position: relative;
-  max-width: 350px;
+  /* max-width: 350px; */
 }
 
 .Our-Space-Section__button {
@@ -953,5 +955,3 @@ body {
 }
 
 /* ====== */
-
-._webp .Our-Space-Section__background{ background: #10375C url(../img/Group3.webp) 214px 16px no-repeat; }
